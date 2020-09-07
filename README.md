@@ -1,6 +1,6 @@
 # Ilk Registry
 
-A publicly-modifiable registry of `ilk`'s in the Dai Stablecoin System.
+A publicly-modifiable registry of `ilk`'s in the Csc Stablecoin System.
 
 ## Public addresses
 
@@ -48,7 +48,7 @@ Useful for external contracts or web frontends which need to iterate over the on
     * `name(bytes32 ilk)`: the name of the token (if available) as `string`
     * `symbol(bytes32 ilk)`: the token symbol (if available) as `string`
 
-* `auth` functions (available to MakerDAO governance)
+* `auth` functions (available to CurioDAO governance)
 
     * `file(bytes32 what, address)`: Update core contract values
     * `file(bytes32 ilk, bytes32 what, address)`: Update ilk data values
